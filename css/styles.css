@@ -172,6 +172,19 @@ body {
   color: var(--accent-color);
 }
 
+.icon-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+.icon-phone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 /*--------------------ШАПКА--------------------  */
 .overlay {
   max-width: 1600px;
