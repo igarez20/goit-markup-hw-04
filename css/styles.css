@@ -380,6 +380,28 @@ body {
   background-color: var(--accent-color);
 }
 
+.clients-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+}
+
+.clients-item {
+  border: 1px solid var(--primary-logo-color);
+  border-radius: 4px;
+}
+
+.clients-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 /*--------------------ПІДВАЛ--------------------  */
 .footer {
   background-color: var(--secondary-bg-color);
