@@ -151,6 +151,7 @@ body {
 .feedback-nav {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 .feedback-nav .item:not(:last-child) {
@@ -173,14 +174,10 @@ body {
 }
 
 .icon-mail {
-  width: 16px;
-  height: 12px;
   margin-right: 10px;
   fill: currentColor;
 }
 .icon-phone {
-  width: 10px;
-  height: 16px;
   margin-right: 10px;
   fill: currentColor;
 }
@@ -255,6 +252,15 @@ body {
 .benefits-list {
   display: flex;
   gap: 30px;
+}
+
+.benefits-link {
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: var(--team-bg-color);
 }
 
 .benefits-item {
