@@ -348,6 +348,16 @@ body {
   text-align: center;
 }
 
+.team-social {
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.social-items {
+
+}
+
 /*--------------------ПІДВАЛ--------------------  */
 .footer {
   background-color: var(--secondary-bg-color);
