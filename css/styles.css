@@ -22,6 +22,7 @@
   --contacts-main-color: rgba(255, 255, 255, 0.6);
   --header-border-color: #ececec;
   --portfolio-border-color: #eeeeee;
+  --primary-logo-color: #afb1b8;
 }
 
 /* --------------------ЗАГАЛЬНІ СТИЛІ-------------------- */
@@ -244,7 +245,7 @@ body {
   height: 1px;
   margin: -1px;
   border: 0;
-  padding: 0;link
+  padding: 0;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -340,7 +341,7 @@ body {
 
 .team-position {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 16;
 
   color: var(--secondary-text-color);
   font-size: 16px;
@@ -350,12 +351,30 @@ body {
 
 .team-social {
   display: flex;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-items {
+  width: 44px;
+  height: 44px;
+}
 
+.social-items:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: teal;
+  border-radius: 50%;
+  fill: var(--primary-logo-color);
+
+  /* background-color: var(--primary-white-color); */
 }
 
 /*--------------------ПІДВАЛ--------------------  */
