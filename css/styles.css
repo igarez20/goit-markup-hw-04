@@ -468,6 +468,10 @@ body {
   color: var(--accent-color);
 }
 
+.socials {
+  margin-left: 70px;
+}
+
 .socials-appeal {
   font-weight: 700;
   font-size: 14px;
